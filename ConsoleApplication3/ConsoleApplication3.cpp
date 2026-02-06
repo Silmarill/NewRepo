@@ -3,7 +3,7 @@ using namespace std;
 
 // Function to add two numbers
 double add(double a, double b) {
-    return a * b;
+    return a + b;
 }
 
 int main() {
@@ -25,4 +25,5 @@ int main() {
     cout << "The sum is: " << result << endl;
 
     return 0;
+
 }
